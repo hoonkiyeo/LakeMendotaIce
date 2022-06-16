@@ -1,9 +1,8 @@
 # Lake Mendota Ice covered days Prediction
 
 
-## Summary
+## Objective
 - The objective of this project is to predict the number of days Lake Mendota is covered by ice and eventually predict the specific year when the Lake Mendota would be no longer covered by ice
-- 
 ## Dataset
 
 - The dataset (Lake_Mendota.csv) for this program is manually created by myself. I retrieve years and the number of ice covered days of Lake Mendota in Wisconsin Madison from [Wisconsin State Climatology Office](https://www.aos.wisc.edu/~sco/lakes/Mendota-ice.html). Linear Regression Analysis is applied on this data to calculate and predict the number of ice covered days of Lake Mendota at specific years.
@@ -24,8 +23,9 @@
 
 ## Conclusion
 
-gif
-
+- β1 is the beta coefficient. The sign of a beta coefficient tells us that whether there is a positive or negative correlation between the independent variable (years) and the dependent variable (ice coverd days). Since the sign of β1 is negative here, we explain that as year increases, the number of days Lake Mendota was covered by ice decreases
+- x* is a compelling prediction based on the trends in the data because as we can observe in the data, there is a trend (not obvious) that as time goes by, the number of days Lake Mendota was covered by ice is decreasing. Especially, since 2014, the number of days Lake Mendota was covered by ice has never been more than 91 days. Based on the prediction, the Lake Mendota will no longer be covered by ice from the year 2456
+- Prediction for 2021-2022 is 85.6 days and the actual record is 85 days and so the prediction is pretty accurate.
 ## Downside & Future Direction
 
 - In this problem, X.T@X is invertible such that it could be easily solved by the closed-form MLE. However, if the X.T@X is not invertible, then it should be solved in different approaches.
