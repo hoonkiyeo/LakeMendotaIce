@@ -8,7 +8,7 @@
 
 - The dataset (Lake_Mendota.csv) for this program is manually created by myself. I retrieve years and the number of ice covered days of Lake Mendota in Wisconsin Madison from [Wisconsin State Climatology Office](https://www.aos.wisc.edu/~sco/lakes/Mendota-ice.html). Linear Regression Analysis is applied on this data to calculate and predict the number of ice covered days of Lake Mendota at specific years.
 
-## Steps and Equations
+## Main concepts & Equations
 
 - Using the whole data set as the training set, train a linear regression model:
 - <img width="123" alt="Screen Shot 2022-06-14 at 10 41 18 PM" src="https://user-images.githubusercontent.com/69660509/173816577-966a7b14-2e14-4f67-ba91-70bc60aa63e9.png">
@@ -18,7 +18,15 @@
 - <img width="185" alt="Screen Shot 2022-06-14 at 10 45 05 PM" src="https://user-images.githubusercontent.com/69660509/173817926-ef3bd01f-5be4-4b29-aa7a-c21a055e0c17.png">
 - The final MLE solution this program uses by setting the gradient to zero 
 - <img width="171" alt="Screen Shot 2022-06-14 at 10 45 33 PM" src="https://user-images.githubusercontent.com/69660509/173818555-d1bef7a1-9a0a-4a27-b1b4-24fa44fbc61b.png">
+- Predicting the specific year (x*) when the Lake Mendota will be no longer covered by ice
+- <img width="114" alt="Screen Shot 2022-06-16 at 8 37 02 AM" src="https://user-images.githubusercontent.com/69660509/174082556-f1557870-6e5d-4b94-904a-c0ab6d7f0539.png">
+
 
 ## Conclusion
 
+gif
+
+## Downside & Future Direction
+
+- In this problem, X.T@X is invertible such that it could be easily solved by the closed-form MLE. However, if the X.T@X is not invertible, then it should be solved in different approaches.
 - 
