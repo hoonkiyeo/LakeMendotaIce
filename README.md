@@ -24,9 +24,9 @@
 ## Conclusion
 
 - β1 is the beta coefficient. The sign of a beta coefficient tells us that whether there is a positive or negative correlation between the independent variable (years) and the dependent variable (ice coverd days). Since the sign of β1 is negative here, we explain that as year increases, the number of days Lake Mendota was covered by ice decreases
-- x* is a compelling prediction based on the trends in the data because as we can observe in the data, there is a trend (not obvious) that as time goes by, the number of days Lake Mendota was covered by ice is decreasing. Especially, since 2014, the number of days Lake Mendota was covered by ice has never been more than 91 days. Based on the prediction, the Lake Mendota will no longer be covered by ice from the year 2456
+- x* is a compelling prediction based on the trends in the data because as we can observe in the data, there is a trend (not obvious) that as time goes by, the number of days Lake Mendota was covered by ice is decreasing. Especially, since 2014, the number of days Lake Mendota was covered by ice has never been more than 91 days. Based on the prediction, the Lake Mendota will no longer be covered by ice from the year 2456.
 - Prediction for 2021-2022 is 85.6 days and the actual record is 85 days and so the prediction is pretty accurate.
 ## Downside & Future Direction
 
 - In this problem, X.T@X is invertible such that it could be easily solved by the closed-form MLE. However, if the X.T@X is not invertible, then it should be solved in different approaches.
-- 
+- Need to consider different methods such as performing gradient descent on the MSE. 
